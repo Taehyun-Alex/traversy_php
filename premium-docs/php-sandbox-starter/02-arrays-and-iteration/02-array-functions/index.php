@@ -1,5 +1,19 @@
 <?php
 echo "hello from PHP!";
+echo "<br>";
+print "Hello from Print";
+echo "<br>";
+echo "One", "Two";
+// comment
+/*
+ * multi line
+ */
+
+/**
+ *description
+ *
+ */
+
 ?>
 
 <!DOCTYPE html>
@@ -15,14 +29,14 @@ echo "hello from PHP!";
 <body class="bg-gray-100">
     <header class="bg-blue-500 text-white p-4">
         <div class="container mx-auto">
-            <h1 class="text-3xl font-semibold">PHP From Scratch</h1>
+            <h1 class="text-3xl font-semibold"><?= "Learn PHP from scratch"; ?></h1>
         </div>
     </header>
     <div class="container mx-auto p-4 mt-4">
         <div class="bg-white rounded-lg shadow-md p-6 mt-6">
+            <h2><?= "Welcome To the Course";?></h2>
             <!-- Output -->
-            <p class="text-xl"><?= $output ?></p>
-            </p>
+            <?php echo '<p> In this course, you will learn the fundamentals of the PHP language</p>';?>
         </div>
     </div>
 </body>

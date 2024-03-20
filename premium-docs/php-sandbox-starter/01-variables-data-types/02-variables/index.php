@@ -7,7 +7,6 @@ VARIABLE RULES:
 - They can only contain letters, numbers, and underscores.
 - They are case sensitive. So, `$name` and `$Name` are two different variables.
 */
-
 /*
 CONVENTIONS:
 - Underscores: $server_name

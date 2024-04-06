@@ -1,5 +1,13 @@
 <?php
 $output = null;
+
+$output = date("Y");
+
+$output = date("Y", 9363456000);
+$output = date("Y", strtotime("1999-09-01"));
+$output = date("Y-m-d l");
+
+$output = date("Y-m-d: h-i-s a");
 ?>
 
 <!DOCTYPE html>

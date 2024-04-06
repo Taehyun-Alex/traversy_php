@@ -1,5 +1,20 @@
 <?php
 $output = null;
+$string = "Hello World";
+
+$output = strlen($string);
+$output = str_word_count($string);
+
+$output = strpos($string, "l");
+$output = $string[2];
+
+$output = substr($string, 6, 5);
+$output = str_replace("World", "Korea", $string);
+$output = strtolower($string);
+$output = strtoupper($string);
+$output = ucwords($string);
+$output = "      Hello World   ";
+
 ?>
 
 <!DOCTYPE html>

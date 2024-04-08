@@ -9,6 +9,10 @@
   5. Print out 'The sum of the {amount} numbers is: {sum} '. For example, if the array is [1, 2, 3, 4, 5], the output should be 'The sum of the 5 numbers is: 15'. 
 */
 echo '<h3>Sum Of An Array</h3>';
+$nums = [1, 2, 3, 4];
+$count = count($nums);
+$sum = $nums[0] + $nums[1] + $nums[2] + $nums[3];
+echo "The sum of the {$count} numbers is: {$sum}";
 
 /*
   Challenge 2: Colors array
@@ -24,7 +28,10 @@ You should end up with the following array: ['yellow', 'pink', 'blue', 'red', 'p
 echo '<h3>Colors Array</h3>';
 
 $colors = ['red', 'blue', 'green', 'yellow'];
-
+array_reverse($colors);
+$colors[] = 'purple';
+array_push($colors, 'orange');
+print_r($colors);
 /*
   Challenge 3: Job listings array
 

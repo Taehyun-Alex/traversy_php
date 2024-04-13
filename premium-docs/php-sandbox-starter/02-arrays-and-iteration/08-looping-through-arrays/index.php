@@ -30,14 +30,33 @@ $users = [
       <!-- Output -->
       <h3 class="text-xl font-semibold mb-4">Using a for loop</h3>
       <ul class="mb-6"></ul>
+        <?php for($i = 0; $i < count($users); $i++): ?>
+            <li><?= $names[$i];?></li>
+        <?php endfor ?>
       <h3 class="text-xl font-semibold mb-4">Using a foreach loop</h3>
       <ul class="mb-6"></ul>
+        <?php foreach($names as $index => $name): ?>
+            <li><?= $name ?></li>
+        <?php endforeach; ?>
       <h3 class="text-xl font-semibold mb-4">Using a foreach loop with index</h3>
       <ul class="mb-6"></ul>
+        <?php foreach($names as $index => $name): ?>
+            <li><?= $index . ": " . $name ?></li>
+        <?php endforeach; ?>
       <h3 class="text-xl font-semibold mb-4">Using a foreach loop with associative array</h3>
       <ul class="mb-6"></ul>
+        <?php foreach($users as $user):?>
+            <li><?= $user["name"] . ": " . $user["email"]?></li>
+        <?php endforeach; ?>
       <h3 class="text-xl font-semibold mb-4">Getting key names and values from associative array</h3>
       <ul class="mb-6"></ul>
+        <?php foreach($users as $user): ?>
+            <?php foreach($user as $key => $value): ?>
+                <li>
+                    <?= $key. ":" . $value?>
+                </li>
+            <?php endforeach; ?>
+        <?php endforeach; ?>
     </div>
   </div>
 </body>

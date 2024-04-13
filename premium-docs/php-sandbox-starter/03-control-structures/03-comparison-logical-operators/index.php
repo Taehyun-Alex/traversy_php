@@ -15,6 +15,11 @@
 | >=       | Greater than or equal to |
 */
 
+$x = 10;
+$y = "10";
+
+var_dump($x <> $y);
+
 
 /*
 | Logical Operators

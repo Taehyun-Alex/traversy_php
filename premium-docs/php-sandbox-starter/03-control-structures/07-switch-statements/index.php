@@ -1,3 +1,23 @@
+<?php
+$dayOfWeek = date('l');
+
+switch($dayOfWeek) {
+    case "Monday":
+        $message = "Monday!";
+        $color = "red";
+        break;
+    case "Saturday":
+        $message = "Saturday!";
+        $color = "yellow";
+        break;
+    case 'Sunday':
+        $message = "Sunday!";
+        $color = "green";
+        break;
+}
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -11,7 +31,7 @@
   <style>
     body {
       font-family: 'Roboto', sans-serif;
-      background-color: blue;
+      background-color: <?= $color ?>;
       color: white;
       display: flex;
       justify-content: center;
@@ -22,7 +42,7 @@
 </head>
 
 <body>
-  <h1>Monday blues!</h1>
+  <h1><?= $dayOfWeek ?></h1>
 </body>
 
 </html>

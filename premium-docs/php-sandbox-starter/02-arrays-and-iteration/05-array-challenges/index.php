@@ -28,10 +28,14 @@ You should end up with the following array: ['yellow', 'pink', 'blue', 'red', 'p
 echo '<h3>Colors Array</h3>';
 
 $colors = ['red', 'blue', 'green', 'yellow'];
-array_reverse($colors);
-$colors[] = 'purple';
-array_push($colors, 'orange');
-print_r($colors);
+$reversed_array = array_reverse($colors);
+$reversed_array = array_merge($reversed_array, ["purple", "orange"]);
+$reversed_array[1] = 'pink';
+array_pop($reversed_array);
+echo '<pre>';
+print_r($reversed_array);
+echo '</pre>';
+
 /*
   Challenge 3: Job listings array
 
@@ -42,3 +46,45 @@ print_r($colors);
 */
 
 echo '<h3>Job Listings</h3>';
+$job_listing = [[
+    'id' => 1,
+    'job_title' => 'PHP Developer',
+    'company' => 'ABC Company',
+    'contact_email' => 'john@email.com',
+    'contact_phone' => '123-456-7890',
+    'skills' => ['PHP', 'MySQL', 'JavaScript', 'HTML', 'CSS']
+],
+  [
+      'id' => 2,
+      'job_title' => 'Web Designer',
+      'company' => 'XYZ Company',
+      'contact_email' => 'steph@email.com',
+      'contact_phone' => '123-456-7890',
+      'skills' => ['Photoshop', 'Illustrator', 'HTML', 'CSS']
+  ],
+  [
+      'id' => 3,
+      'job_title' => 'Web Developer',
+      'company' => '123 Company',
+      'contact_email' => 'peter@email.com',
+      'contact_phone' => '123-456-7890',
+      'skills' => ['Python', 'PostgreSQL', 'JavaScript', 'HTML', 'CSS']
+  ]
+];
+
+
+
+array_push($job_listing, [
+    'id' => 4,
+    'job_title' => 'PHP Developer',
+    'company' => 'ABC Company',
+    'contact_email' => 'john@email.com',
+    'contact_phone' => '123-456-7890',
+    'skills' => ['PHP', 'MySQL', 'JavaScript', 'HTML', 'CSS']
+]);
+
+echo "<pre>";
+print_r($job_listing);
+echo "</pre>";
+echo $job_listing[1]["job_title"];
+echo $job_listing[2]["skills"][0];

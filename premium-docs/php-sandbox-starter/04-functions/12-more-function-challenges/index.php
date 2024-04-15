@@ -7,12 +7,26 @@
 */
 
 echo '<br>';
+function FahrenheitToCelsius($Fahrenheit) {
+    $celcius =  ($Fahrenheit - 32) * 5 / 9;
+    return $Fahrenheit . "F = " . $celcius . "C";
+}
+
+$convertedCelcius = fn ($Fahrenheit) => ($Fahrenheit - 32) * 5 / 9;
+
+$degToConvert = 68;
+
+echo $degToConvert . "F = " . $convertedCelcius($degToConvert) . "C";
 
 /*
   Challenge 2: Print names in uppercase
   Create a function called `printNamesToUpperCase` that takes an array of names as an argument. The function should loop through the array and print each name to the screen in uppercase letters.
 */
-
+function printNamesToUpperCase($namelist) {
+    foreach($namelist as $name) {
+        echo strtoupper($name) . "<br>";
+    }
+}
 
 echo '<br>';
 
@@ -22,3 +36,17 @@ echo '<br>';
   2. The function should return the longest word in the sentence.
   3. The output should look like this:
 */
+
+function findLongestWord($sentence) {
+    $listOfWords = explode(" ", $sentence);
+    $longestWord = "";
+    foreach($listOfWords as $word) {
+        $word = trim($word);
+        if (strlen($word) > strlen($longestWord)) {
+            $longestWord = $word;
+        }
+    }
+    return $longestWord;
+}
+
+echo findLongestWord("My name is Alexa");

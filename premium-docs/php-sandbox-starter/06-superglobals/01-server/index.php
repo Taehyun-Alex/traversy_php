@@ -1,7 +1,7 @@
 <?php
 // Common server variables:
-$requestMethod = '';
-$serverProtocol = '';
+$requestMethod = $_SERVER["REQUEST_METHOD"];
+$serverProtocol = $_SERVER["SERVER_PROTOCOL"];
 $serverName = '';
 $serverPort = '';
 $serverSoftware = '';

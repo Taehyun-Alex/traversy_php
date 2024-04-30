@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d7c953ea-fe3f-484c-926c-dcc9c8121f5c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/06-superglobals/01-server/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/06-superglobals/01-server/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06-superglobals/02-env-globals/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/06-superglobals/02-env-globals/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07-database/07-connect-pdo/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/07-database/07-connect-pdo/database.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2ekIumR5FKOrCAsZD3CmhaGDJrU" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/Admin/source/repos/workopia-theme",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-php-predefined-ba97393d7c68-b4dcf6bb9de9-com.jetbrains.php.sharedIndexes-PS-233.13135.108" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d7c953ea-fe3f-484c-926c-dcc9c8121f5c" name="Changes" comment="" />
+      <created>1712442375241</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1712442375241</updated>
+      <workItem from="1712442376570" duration="4277000" />
+      <workItem from="1712531462617" duration="4338000" />
+      <workItem from="1712616543914" duration="2569000" />
+      <workItem from="1712699817833" duration="5239000" />
+      <workItem from="1712788740065" duration="3007000" />
+      <workItem from="1712879227639" duration="4363000" />
+      <workItem from="1712914755290" duration="2128000" />
+      <workItem from="1712962618766" duration="3231000" />
+      <workItem from="1712990026188" duration="4292000" />
+      <workItem from="1713054377415" duration="1540000" />
+      <workItem from="1713106052467" duration="11614000" />
+      <workItem from="1714307994953" duration="1256000" />
+      <workItem from="1714345228635" duration="5842000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
